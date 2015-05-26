@@ -1,0 +1,177 @@
+return
+{
+
+	NativeWidth=800,
+	NativeHeight=600,
+	Sprites=
+	{
+
+		--Score Bar
+
+		{
+			TopLeft = { -0.3, 0.95 },
+			Width = 0.0,
+			Height = 0.3,
+			Material = "spriteMaterial_RedBar",
+			IsSpriteSheet = false,
+		},
+		
+		{
+			TopLeft = { -0.3, 0.95 },
+			Width = 0.0,
+			Height = 0.3,
+			Material = "spriteMaterial_BlueBar",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { -0.3, 0.95 },
+			Width = 0.0,
+			Height = 0.3,
+			Material = "spriteMaterial_Player1TurnLabel",
+			IsSpriteSheet = false,
+		},
+
+		{
+			TopLeft = { -0.3, 0.95 },
+			Width = 0.0,
+			Height = 0.3,
+			Material = "spriteMaterial_Player2TurnLabel",
+			IsSpriteSheet = false,
+		},
+		--[[
+		-- Sprite Sheet
+		{
+			TopLeft = { 0.9, 0.9 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_NumberSheet",
+			IsSpriteSheet = true,
+			SheetWidth = 10,
+			SheetHeight = 1,
+		},
+		
+		-- Button Info
+		{
+			TopLeft = { -0.1, 0.075 },
+			Width = 0.4,
+			Height = 0.2,
+			Material = "spriteMaterial_MainMenuButton",
+			IsSpriteSheet = false,
+		},
+		
+		{
+			TopLeft = { -0.1, -0.075  },
+			Width = 0.4,
+			Height = 0.2,
+			Material = "spriteMaterial_OptionsButton",
+			IsSpriteSheet = false,
+		},
+		
+		-- Green Skulls
+		
+		{
+			TopLeft = { -0.9, 0.3 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { -0.9, 0.2 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { -0.9, 0.1 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { -0.9, 0.0 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { -0.9, -0.1 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		
+		{
+			TopLeft = { -0.9, -0.2 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { -0.9, -0.3 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_GreenSkull",
+			IsSpriteSheet = false,
+		},
+		
+		-- Orange Skulls
+		
+		{
+			TopLeft = { 0.9, 0.3 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { 0.9, 0.2 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { 0.9, 0.1 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { 0.9, 0.0 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { 0.9, -0.1 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { 0.9, -0.2 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		{
+			TopLeft = { 0.9, -0.3 },
+			Width = 0.1,
+			Height = 0.1,
+			Material = "spriteMaterial_OrangeSkull",
+			IsSpriteSheet = false,
+		},
+		
+		]]--
+	},
+}

@@ -1,0 +1,22 @@
+
+return
+{
+	Shaders=
+	{
+	
+		VertexShader= "data/vertexShader_Tiles.shd",
+		FragmentShader= "data/fragmentShader_TilesTransition.shd",
+		
+	},
+	
+	Texture = "data/Texture_Tile.dds",
+
+	Constants =
+	{
+		Float3=
+		{
+			g_colorModifier  = { 0.0, 0.0, 1.0 },
+		}
+	}
+	
+}

@@ -1,0 +1,79 @@
+enum Suit
+{
+ ESpade,
+ EHeart,
+ EClub,
+ EDiamond,
+};
+
+struct Card
+{
+ unsigned int m_value;
+ Suit m_suit;
+}
+
+class Deck
+{
+    Card m_cards[52];
+    unsigned int m_currentTopCardIndex;
+    unsigned int m_currentBottomCardIndex;
+private:
+    
+    Card();
+    Card DealCardFromTop() const;
+    Card DealCardFromBottom() const;
+    void ShuffleDeck();
+}
+
+// Default constructor will initialize cardIndex to 0, and will initialize the Card array to 
+// an unshuffled deck in the order: Spade, Heart, Club, Diamond
+Card::Card():m_currentCardIndex(0),m_currentBottomCardIndex(51)
+{
+    Suit m_suitArray[4]{ESpade,EHeart,EClub,EDiamond};
+    
+    // Assign the suit of the card
+    m_cards[i].m_suit=m_suitArray[i/13];
+    
+    // Assign the value of the card
+    m_cards[i].value=i%13;
+}
+
+Card Card::DealCardFromTop()
+{
+    return m_cards[m_currentTopCardIndex];
+    ++m_currentTopCardIndex;
+    
+    // Check to see if the cards haven't run out. If so, shuffle the deck and reset the indices
+    if(m_currentTopCardIndex== m_currentBottomCardIndex)
+    {
+        ShuffleDeck()
+    }
+}
+
+Card Card::DealCardFromBottom()
+{
+    return m_cards[m_currentBottomCardIndex];
+    --m_currentBottomCardIndex;
+    
+    // Check to see if the cards haven't run out. If so, shuffle the deck and reset the indices
+    if(m_currentTopCardIndex== m_currentBottomCardIndex)
+    {
+        ShuffleDeck()
+    }
+}
+
+void Card::ShuffleDeck()
+{
+    for(unsigned int i=0;i<52;++i)
+    {
+        // Get a random index between i and the end of the cards array, size 52
+        unsigned int randomIndex=(int)(rand()*(51-i));
+        // Swap this element with the i-th element
+        Card temp=m_cards[randomIndex];
+        m_cards[randomIndex]= m_cards[i];
+        m_cards[i]=temp;
+    }
+    m_currentTopCardIndex=0;
+    m_currentBottomCardIndex=51;
+}
+    

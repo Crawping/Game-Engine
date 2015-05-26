@@ -1,0 +1,22 @@
+
+return
+{
+	Shaders=
+	{
+	
+		VertexShader= "data/vertexShader_Sprite.shd",
+		FragmentShader= "data/fragmentShader_Sprite.shd",
+		
+	},
+	
+	Texture = "data/numberSheet.dds",
+
+	Constants =
+	{
+		Float3=
+		{
+			g_colorModifier  = { 1.0, 1.0, 1.0 },
+		}
+	}
+	
+}

@@ -1,0 +1,20 @@
+
+return
+{
+	Shaders=
+	{
+	
+		VertexShader= "data/vertexShader.shd",
+		FragmentShader= "data/fragmentShader.shd",
+		
+	},
+	
+	Constants =
+	{
+		Float3=
+		{
+			g_colorModifier  = { 1.0, 1.0, 1.0 },
+		}
+	}
+	
+}

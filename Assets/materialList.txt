@@ -1,0 +1,30 @@
+return
+{
+
+	-- Implicit integer keys:
+	"data/cubeMaterial.txt",
+	"data/Material_TileRed.txt",
+	"data/Material_TileBlue.txt",
+	"data/Material_TileWhite.txt",
+	"data/Material_TileTransition.txt",
+	"data/cylinderMaterial.txt",
+	"data/soccerBallMaterial.txt",
+	"data/Material_Cannon.txt",
+	"data/spriteMaterial_OrangeSkull.txt",
+	"data/spriteMaterial_GreenSkull.txt",
+	"data/spriteMaterial_OptionsButton.txt",
+	"data/spriteMaterial_MainMenuButton.txt",
+	"data/spriteMaterial_NumberSheet.txt",
+	"data/spriteMaterial_RedBar.txt",
+	"data/spriteMaterial_BlueBar.txt",
+	"data/spriteMaterial_Player1TurnLabel.txt",
+	"data/spriteMaterial_Player2TurnLabel.txt",
+	"data/Material_DebugLines.txt",
+	"data/Material_LineRenderer.txt",
+	"data/walls_m.txt",
+	"data/railing_m.txt",
+	"data/metal_m.txt",
+	"data/floor_m.txt",
+	"data/cement_m.txt",
+	"data/ceiling_m.txt",
+}
